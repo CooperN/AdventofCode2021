@@ -1,4 +1,3 @@
-import io
 import pathlib
 filepath = pathlib.Path(__file__).parent.parent.joinpath("Inputs/day1.txt")
 raw_data = open(filepath).read()
