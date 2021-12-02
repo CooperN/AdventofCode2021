@@ -30,6 +30,6 @@ for i in directions:
         aim += int(i[1])
     elif(i[0] ==  'up'):
         aim -= int(i[1])
-print('aim: ' + str(aim))
 print('Depth: ' + str(depth))
+print('aim: ' + str(aim))
 print('Second Answer: ' + str(horizontal*depth))
